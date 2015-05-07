@@ -8,5 +8,9 @@ class TestController extends \yii\web\Controller{
     public function actionTest(){
         echo $this->render("test");
     }
+    
+    public function actionTest1(){
+//        file_put_contents('/tmp/testfile', "test");
+    }
 }
 

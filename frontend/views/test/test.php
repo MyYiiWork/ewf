@@ -1,4 +1,8 @@
+<?= $this->render('index'); ?>
 <?php
-$this->title = "testfile";
+$this->title = "testtest";
 ?>
+
+
+
 
