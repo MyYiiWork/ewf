@@ -6,7 +6,8 @@ class TestController extends \yii\web\Controller{
     }
     
     public function actionTest(){
-        echo $this->render("test");
+        $data="data";
+        echo $this->render("test",['data'=>$data]);
     }
     
     public function actionTest1(){
